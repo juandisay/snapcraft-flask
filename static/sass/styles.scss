@@ -19,6 +19,8 @@
 @include vf-u-margin-collapse;
 @include vf-u-padding-collapse;
 @include vf-u-align;
+@include vf-p-headings;
+@include vf-p-matrix;
 
 @import 'patterns_inline-list--compact';
 @include p-inline-list--compact;
