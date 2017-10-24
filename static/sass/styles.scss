@@ -28,6 +28,7 @@ $color-accent-background: $color-accent;
 @include vf-p-headings;
 @include vf-p-matrix;
 @include vf-p-icons;
+@include vf-p-heading-icon;
 
 @import 'patterns_inline-list--compact';
 @include p-inline-list--compact;
