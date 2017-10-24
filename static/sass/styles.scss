@@ -23,9 +23,11 @@ $color-accent-background: $color-accent;
 @include vf-u-off-screen;
 @include vf-u-margin-collapse;
 @include vf-u-padding-collapse;
+@include vf-u-vertically-center;
 @include vf-u-align;
 @include vf-p-headings;
 @include vf-p-matrix;
+@include vf-p-icons;
 
 @import 'patterns_inline-list--compact';
 @include p-inline-list--compact;
