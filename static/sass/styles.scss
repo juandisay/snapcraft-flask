@@ -50,3 +50,6 @@ $color-accent-background: $color-accent;
 
 @import 'button-overrides';
 @include button-overrides;
+
+@import 'heading-overrides';
+@include heading-overrides;
