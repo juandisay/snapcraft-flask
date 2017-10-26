@@ -1,0 +1,14 @@
+@mixin p-logo-link {
+
+  .p-logo-link {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: block;
+    max-width: 150px;
+
+    &:hover {
+      border-color: $color-mid-light;
+    }
+  }
+
+}
