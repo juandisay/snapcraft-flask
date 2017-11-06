@@ -1,7 +1,9 @@
 // vanilla patterns
 @import 'vanilla-framework/scss/vanilla';
 @import 'typography-overrides';
-$color-brand: #003634; // TODO: this is a temprary brand colour
+@import 'custom';
+
+$color-brand: #00302f; // TODO: this is a temprary brand colour
 $color-accent: $color-brand; // temporary for strip background
 $color-accent-background: $color-accent;
 
