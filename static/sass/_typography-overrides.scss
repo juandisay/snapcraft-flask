@@ -1,21 +1,21 @@
 %heading-copy--short {
-  max-width: 18em;
+  max-width: 20em;
 }
 %heading-copy--long {
-  max-width: 27em;
+  max-width: 25em;
 }
 %paragraph-copy {
   max-width: 35em;
 }
 
-h1, h2 {
+h1, h2, .p-heading--two {
   @extend %heading-copy--short;
 }
 
-h3, h4 {
+h3, h4, .p-heading--three, .p-heading--four {
   @extend %heading-copy--long;
 }
 
-h5, p {
+h5, p, .p-heading--five, .p-heading--six {
   @extend %paragraph-copy;
 }
